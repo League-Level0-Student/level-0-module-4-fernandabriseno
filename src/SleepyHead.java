@@ -8,7 +8,7 @@ public class SleepyHead {
 
 	public static void main(String[] args) {
 		String answer = JOptionPane.showInputDialog("Heyo! Good morning! Is it a weekday or a weekend today?");
-		boolean onVacation = JOptionPane.YES_OPTION == JOptionPane.showConfirmDialog(null,"Heyo! Are you on vacation?", "", JOptionPane.YES_NO_OPTION);
+		boolean onVacation = JOptionPane.YES_OPTION == JOptionPane.showConfirmDialog(null,"Are you on vacation?", "", JOptionPane.YES_NO_OPTION);
 		System.out.println(onVacation);
 		if (answer.equals("weekend") || onVacation == true) {
 			JOptionPane.showMessageDialog(null, "Oh! I'm so sorry! Go ahead and sleep in! Enjoy your weekend!");
